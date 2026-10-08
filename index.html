@@ -1,0 +1,1614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rong Bahar | Paints & Colours</title>
+
+<meta name="description" content="Rong Bahar - Paints, Colours, Waterproofing, Wall Paints and Painting Solutions.">
+<meta name="keywords" content="Rong Bahar, paint shop, wall paint, Asian Paints, Berger, Nerolac, Dulux">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#fff;
+    color:#222;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+/* ================= HEADER ================= */
+
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#ffffff;
+    box-shadow:0 3px 15px rgba(0,0,0,.10);
+}
+
+.navbar{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:15px 20px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:900;
+    color:#e63946;
+    letter-spacing:1px;
+}
+
+.logo span{
+    color:#111;
+}
+
+.nav-links{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+.nav-links a{
+    font-weight:600;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#e63946;
+}
+
+.menu-btn{
+    display:none;
+    font-size:28px;
+    cursor:pointer;
+}
+
+/* ================= HERO ================= */
+
+.hero{
+    min-height:650px;
+    display:flex;
+    align-items:center;
+    background:
+    linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.25)),
+    url("https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=1600&q=85");
+    background-size:cover;
+    background-position:center;
+}
+
+.hero-content{
+    max-width:1200px;
+    width:100%;
+    margin:auto;
+    padding:40px 20px;
+    color:white;
+}
+
+.hero-content h1{
+    font-size:65px;
+    line-height:1.05;
+    margin-bottom:20px;
+}
+
+.hero-content h1 span{
+    color:#ffcc00;
+}
+
+.hero-content p{
+    font-size:24px;
+    max-width:650px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:13px 25px;
+    border-radius:30px;
+    margin-right:10px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn-primary{
+    background:#e63946;
+    color:white;
+}
+
+.btn-primary:hover{
+    background:#c91f2d;
+    transform:translateY(-2px);
+}
+
+.btn-whatsapp{
+    background:#25D366;
+    color:white;
+}
+
+.btn-whatsapp:hover{
+    transform:translateY(-2px);
+}
+
+/* ================= COMMON ================= */
+
+section{
+    padding:80px 20px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:45px;
+}
+
+.section-title h2{
+    font-size:38px;
+    margin-bottom:8px;
+}
+
+.section-title p{
+    color:#666;
+}
+
+/* ================= COLOUR STRIP ================= */
+
+.colour-strip{
+    display:grid;
+    grid-template-columns:repeat(10,1fr);
+}
+
+.colour-box{
+    height:80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-weight:bold;
+}
+
+/* ================= PRODUCTS ================= */
+
+.products-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.product-card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.10);
+    transition:.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-7px);
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.product-img{
+    height:190px;
+    object-fit:cover;
+}
+
+.product-info{
+    padding:20px;
+}
+
+.product-info h3{
+    margin-bottom:8px;
+}
+
+.product-info p{
+    color:#666;
+    font-size:14px;
+    margin-bottom:12px;
+}
+
+.price{
+    font-weight:bold;
+    color:#e63946;
+    margin-bottom:15px;
+}
+
+.whatsapp-small{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    padding:9px 15px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:bold;
+}
+
+/* ================= CATEGORIES ================= */
+
+.category-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+}
+
+.category{
+    padding:28px 15px;
+    text-align:center;
+    border-radius:15px;
+    background:#f7f7f7;
+    border:1px solid #eee;
+    transition:.3s;
+}
+
+.category:hover{
+    background:#111;
+    color:white;
+    transform:translateY(-5px);
+}
+
+.category-icon{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+/* ================= COLOUR CATALOGUE ================= */
+
+.catalogue{
+    background:#f7f8fb;
+}
+
+.colour-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:20px;
+}
+
+.colour-card{
+    border-radius:15px;
+    overflow:hidden;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.colour-preview{
+    height:130px;
+}
+
+.colour-info{
+    padding:15px;
+}
+
+.colour-info h3{
+    margin-bottom:3px;
+}
+
+.shade-code{
+    color:#777;
+    font-size:14px;
+}
+
+/* ================= BRANDS ================= */
+
+.brands{
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    gap:20px;
+}
+
+.brand{
+    height:100px;
+    background:white;
+    border:1px solid #eee;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:800;
+    font-size:19px;
+    box-shadow:0 4px 12px rgba(0,0,0,.06);
+}
+
+/* ================= CALCULATOR ================= */
+
+.calculator-section{
+    background:#111;
+    color:white;
+}
+
+.calculator{
+    max-width:850px;
+    margin:auto;
+    background:#1d1d1d;
+    padding:35px;
+    border-radius:20px;
+}
+
+.form-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+}
+
+.input-group label{
+    display:block;
+    margin-bottom:7px;
+    font-weight:bold;
+}
+
+.input-group input,
+.input-group select{
+    width:100%;
+    padding:13px;
+    border:none;
+    border-radius:8px;
+    outline:none;
+}
+
+.calculate-btn{
+    margin-top:20px;
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:30px;
+    background:#ffcc00;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.result{
+    margin-top:25px;
+    padding:20px;
+    background:#fff;
+    color:#111;
+    border-radius:12px;
+    text-align:center;
+    font-size:18px;
+}
+
+/* ================= IDEAS ================= */
+
+.idea-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.idea-card{
+    position:relative;
+    height:270px;
+    overflow:hidden;
+    border-radius:15px;
+}
+
+.idea-card img{
+    height:100%;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.idea-card:hover img{
+    transform:scale(1.08);
+}
+
+.idea-title{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding:25px 15px 15px;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    background:linear-gradient(transparent,rgba(0,0,0,.8));
+}
+
+/* ================= SERVICES ================= */
+
+.services{
+    background:#f7f7f7;
+}
+
+.service-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.service{
+    background:white;
+    padding:30px 20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.07);
+}
+
+.service-icon{
+    font-size:45px;
+    margin-bottom:10px;
+}
+
+/* ================= OFFER ================= */
+
+.offer{
+    background:
+    linear-gradient(100deg,#e63946,#ff7b00);
+    color:white;
+    text-align:center;
+}
+
+.offer h2{
+    font-size:42px;
+}
+
+.offer p{
+    font-size:20px;
+    margin:10px 0 25px;
+}
+
+/* ================= ABOUT ================= */
+
+.about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.about-img{
+    border-radius:20px;
+    height:400px;
+    object-fit:cover;
+}
+
+.about-content h2{
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.about-list{
+    margin-top:20px;
+    list-style:none;
+}
+
+.about-list li{
+    margin:10px 0;
+    font-weight:600;
+}
+
+/* ================= CONTACT ================= */
+
+.contact{
+    background:#f7f8fb;
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.contact-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.07);
+}
+
+.contact-item{
+    margin:20px 0;
+}
+
+.contact-item strong{
+    display:block;
+    margin-bottom:4px;
+}
+
+.map{
+    width:100%;
+    height:350px;
+    border:0;
+    border-radius:15px;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+    background:#111;
+    color:white;
+    padding:50px 20px 20px;
+}
+
+.footer-grid{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:30px;
+}
+
+.footer-logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#ffcc00;
+}
+
+.footer-links{
+    list-style:none;
+}
+
+.footer-links li{
+    margin:8px 0;
+    color:#bbb;
+}
+
+.copyright{
+    text-align:center;
+    border-top:1px solid #333;
+    margin-top:30px;
+    padding-top:20px;
+    color:#aaa;
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width:900px){
+
+    .nav-links{
+        display:none;
+        position:absolute;
+        top:70px;
+        left:0;
+        width:100%;
+        background:white;
+        flex-direction:column;
+        padding:20px;
+        box-shadow:0 5px 15px rgba(0,0,0,.1);
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+
+    .menu-btn{
+        display:block;
+    }
+
+    .hero{
+        min-height:570px;
+    }
+
+    .hero-content h1{
+        font-size:45px;
+    }
+
+    .hero-content p{
+        font-size:18px;
+    }
+
+    .products-grid,
+    .category-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .colour-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .brands{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .idea-grid,
+    .service-grid{
+        grid-template-columns:1fr;
+    }
+
+    .about-grid,
+    .contact-grid{
+        grid-template-columns:1fr;
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr;
+    }
+
+    .colour-strip{
+        grid-template-columns:repeat(5,1fr);
+    }
+
+    .form-grid{
+        grid-template-columns:1fr;
+    }
+}
+
+@media(max-width:500px){
+
+    section{
+        padding:60px 15px;
+    }
+
+    .hero-content h1{
+        font-size:38px;
+    }
+
+    .hero-content p{
+        font-size:17px;
+    }
+
+    .btn{
+        display:block;
+        width:100%;
+        text-align:center;
+        margin:10px 0;
+    }
+
+    .products-grid,
+    .category-grid{
+        grid-template-columns:1fr;
+    }
+
+    .section-title h2{
+        font-size:30px;
+    }
+
+    .colour-strip{
+        grid-template-columns:repeat(5,1fr);
+    }
+
+    .colour-box{
+        height:55px;
+        font-size:11px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+<nav class="navbar">
+
+<a href="#home" class="logo">
+RONG <span>BAHAR</span>
+</a>
+
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+<ul class="nav-links" id="navLinks">
+<li><a href="#home">Home</a></li>
+<li><a href="#products">Products</a></li>
+<li><a href="#colours">Colours</a></li>
+<li><a href="#brands">Brands</a></li>
+<li><a href="#calculator">Calculator</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>
+RONG <span>BAHAR</span>
+</h1>
+
+<p>
+Bring Colour to Your Dream Home
+</p>
+
+<p>
+Premium paints, beautiful colours and complete painting solutions for your home, office and business.
+</p>
+
+<a href="#products" class="btn btn-primary">
+Shop Now
+</a>
+
+<a href="https://wa.me/919999999999?text=Hello%20Rong%20Bahar%2C%20I%20want%20to%20know%20about%20your%20paint%20products." class="btn btn-whatsapp">
+🟢 WhatsApp Us
+</a>
+
+</div>
+</section>
+
+
+<!-- ================= COLOUR STRIP ================= -->
+
+<div class="colour-strip">
+
+<div class="colour-box" style="background:#e63946;">Red</div>
+<div class="colour-box" style="background:#2563eb;">Blue</div>
+<div class="colour-box" style="background:#16a34a;">Green</div>
+<div class="colour-box" style="background:#eab308;">Yellow</div>
+<div class="colour-box" style="background:#f97316;">Orange</div>
+<div class="colour-box" style="background:#ec4899;">Pink</div>
+<div class="colour-box" style="background:#9333ea;">Purple</div>
+<div class="colour-box" style="background:#92400e;">Brown</div>
+<div class="colour-box" style="background:#64748b;">Grey</div>
+<div class="colour-box" style="background:#111;">Black</div>
+
+</div>
+
+
+<!-- ================= PRODUCT CATEGORIES ================= -->
+
+<section id="products">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Our Products</h2>
+<p>Complete painting solutions under one roof</p>
+</div>
+
+<div class="category-grid">
+
+<div class="category">
+<div class="category-icon">🏠</div>
+<h3>Interior Wall Paint</h3>
+</div>
+
+<div class="category">
+<div class="category-icon">🏡</div>
+<h3>Exterior Wall Paint</h3>
+</div>
+
+<div class="category">
+<div class="category-icon">🎨</div>
+<h3>Primer</h3>
+</div>
+
+<div class="category">
+<div class="category-icon">🧱</div>
+<h3>Putty</h3>
+</div>
+
+<div class="category">
+<div class="category-icon">💧</div>
+<h3>Waterproofing</h3>
+</div>
+
+<div class="category">
+<div class="category-icon">🪵</div>
+<h3>Wood Paint</h3>
+</div>
+
+<div class="category">
+<div class="category-icon">🔩</div>
+<h3>Metal Paint</h3>
+</div>
+
+<div class="category">
+<div class="category-icon">✨</div>
+<h3>Texture Paint</h3>
+</div>
+
+<div class="category">
+<div class="category-icon">🖌️</div>
+<h3>Distemper</h3>
+</div>
+
+<div class="category">
+<div class="category-icon">🏗️</div>
+<h3>Enamel Paint</h3>
+</div>
+
+<div class="category">
+<div class="category-icon">🧰</div>
+<h3>Painting Tools</h3>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- ================= FEATURED PRODUCTS ================= -->
+
+<section style="background:#f7f7f7;">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Featured Products</h2>
+<p>Popular products from Rong Bahar</p>
+</div>
+
+<div class="products-grid">
+
+<!-- PRODUCT 1 -->
+
+<div class="product-card">
+
+<img class="product-img"
+src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=700&q=80"
+alt="Interior Wall Paint">
+
+<div class="product-info">
+
+<h3>Royale Luxury Emulsion</h3>
+
+<p>Premium interior wall finish with beautiful smooth look.</p>
+
+<div class="price">
+4 Litre / 10 Litre
+</div>
+
+<a class="whatsapp-small"
+href="https://wa.me/919999999999?text=Hello%20Rong%20Bahar%2C%20I%20want%20to%20know%20the%20price%20of%20Royale%20Luxury%20Emulsion.">
+🟢 Get Price
+</a>
+
+</div>
+</div>
+
+
+<!-- PRODUCT 2 -->
+
+<div class="product-card">
+
+<img class="product-img"
+src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=700&q=80"
+alt="Exterior Paint">
+
+<div class="product-info">
+
+<h3>Weather Coat</h3>
+
+<p>Exterior protection for walls against weather conditions.</p>
+
+<div class="price">
+4 Litre / 10 Litre / 20 Litre
+</div>
+
+<a class="whatsapp-small"
+href="https://wa.me/919999999999?text=Hello%20Rong%20Bahar%2C%20I%20want%20to%20know%20the%20price%20of%20Weather%20Coat.">
+🟢 Get Price
+</a>
+
+</div>
+</div>
+
+
+<!-- PRODUCT 3 -->
+
+<div class="product-card">
+
+<img class="product-img"
+src="https://images.unsplash.com/photo-1595814432314-90095f342e9b?auto=format&fit=crop&w=700&q=80"
+alt="Wall Primer">
+
+<div class="product-info">
+
+<h3>Wall Primer</h3>
+
+<p>Strong base coat for smooth and durable painting.</p>
+
+<div class="price">
+1 Litre / 4 Litre / 20 Litre
+</div>
+
+<a class="whatsapp-small"
+href="https://wa.me/919999999999?text=Hello%20Rong%20Bahar%2C%20I%20want%20to%20know%20the%20price%20of%20Wall%20Primer.">
+🟢 Get Price
+</a>
+
+</div>
+</div>
+
+
+<!-- PRODUCT 4 -->
+
+<div class="product-card">
+
+<img class="product-img"
+src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=700&q=80"
+alt="Waterproofing">
+
+<div class="product-info">
+
+<h3>Waterproofing</h3>
+
+<p>Protection solution for walls, roofs and wet areas.</p>
+
+<div class="price">
+Available in multiple sizes
+</div>
+
+<a class="whatsapp-small"
+href="https://wa.me/919999999999?text=Hello%20Rong%20Bahar%2C%20I%20want%20to%20know%20about%20Waterproofing%20products.">
+🟢 Get Price
+</a>
+
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- ================= COLOUR CATALOGUE ================= -->
+
+<section id="colours" class="catalogue">
+
+<div class="container">
+
+<div class="section-title">
+<h2>🌈 Colour Catalogue</h2>
+<p>Choose the perfect shade for your dream home</p>
+</div>
+
+<div class="colour-grid">
+
+<div class="colour-card">
+<div class="colour-preview" style="background:#E53935;"></div>
+<div class="colour-info">
+<h3>Royal Red</h3>
+<span class="shade-code">RB-R101</span>
+</div>
+</div>
+
+<div class="colour-card">
+<div class="colour-preview" style="background:#2563EB;"></div>
+<div class="colour-info">
+<h3>Ocean Blue</h3>
+<span class="shade-code">RB-B205</span>
+</div>
+</div>
+
+<div class="colour-card">
+<div class="colour-preview" style="background:#16A34A;"></div>
+<div class="colour-info">
+<h3>Fresh Green</h3>
+<span class="shade-code">RB-G310</span>
+</div>
+</div>
+
+<div class="colour-card">
+<div class="colour-preview" style="background:#FACC15;"></div>
+<div class="colour-info">
+<h3>Sun Yellow</h3>
+<span class="shade-code">RB-Y401</span>
+</div>
+</div>
+
+<div class="colour-card">
+<div class="colour-preview" style="background:#F97316;"></div>
+<div class="colour-info">
+<h3>Sunset Orange</h3>
+<span class="shade-code">RB-O502</span>
+</div>
+</div>
+
+<div class="colour-card">
+<div class="colour-preview" style="background:#EC4899;"></div>
+<div class="colour-info">
+<h3>Rose Pink</h3>
+<span class="shade-code">RB-P602</span>
+</div>
+</div>
+
+<div class="colour-card">
+<div class="colour-preview" style="background:#9333EA;"></div>
+<div class="colour-info">
+<h3>Royal Purple</h3>
+<span class="shade-code">RB-P701</span>
+</div>
+</div>
+
+<div class="colour-card">
+<div class="colour-preview" style="background:#92400E;"></div>
+<div class="colour-info">
+<h3>Earth Brown</h3>
+<span class="shade-code">RB-B801</span>
+</div>
+</div>
+
+<div class="colour-card">
+<div class="colour-preview" style="background:#64748B;"></div>
+<div class="colour-info">
+<h3>Modern Grey</h3>
+<span class="shade-code">RB-G901</span>
+</div>
+</div>
+
+<div class="colour-card">
+<div class="colour-preview" style="background:#F8FAFC;"></div>
+<div class="colour-info">
+<h3>Pure White</h3>
+<span class="shade-code">RB-W001</span>
+</div>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- ================= BRANDS ================= -->
+
+<section id="brands">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Our Brands</h2>
+<p>Trusted paint brands available at Rong Bahar</p>
+</div>
+
+<div class="brands">
+
+<div class="brand">Asian Paints</div>
+<div class="brand">Berger</div>
+<div class="brand">Nerolac</div>
+<div class="brand">Dulux</div>
+<div class="brand">Birla Opus</div>
+<div class="brand">Indigo</div>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- ================= PAINT CALCULATOR ================= -->
+
+<section id="calculator" class="calculator-section">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>🧮 Paint Calculator</h2>
+
+<p style="color:#bbb;">
+Calculate approximate paint requirement for your room
+</p>
+
+</div>
+
+<div class="calculator">
+
+<div class="form-grid">
+
+<div class="input-group">
+<label>Room Length (ft)</label>
+<input type="number" id="length" placeholder="Example: 12">
+</div>
+
+<div class="input-group">
+<label>Room Width (ft)</label>
+<input type="number" id="width" placeholder="Example: 10">
+</div>
+
+<div class="input-group">
+<label>Wall Height (ft)</label>
+<input type="number" id="height" placeholder="Example: 10">
+</div>
+
+<div class="input-group">
+<label>Number of Doors</label>
+<input type="number" id="doors" value="1">
+</div>
+
+<div class="input-group">
+<label>Number of Windows</label>
+<input type="number" id="windows" value="2">
+</div>
+
+<div class="input-group">
+<label>Coats</label>
+<select id="coats">
+<option value="1">1 Coat</option>
+<option value="2" selected>2 Coats</option>
+<option value="3">3 Coats</option>
+</select>
+</div>
+
+</div>
+
+<button class="calculate-btn" onclick="calculatePaint()">
+Calculate Paint Requirement
+</button>
+
+<div class="result" id="result">
+Enter room details to calculate.
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- ================= COLOUR IDEAS ================= -->
+
+<section>
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>🏠 Colour Combination Ideas</h2>
+
+<p>Get inspiration for every space</p>
+
+</div>
+
+<div class="idea-grid">
+
+<div class="idea-card">
+
+<img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=80">
+
+<div class="idea-title">
+Bedroom Colour
+</div>
+
+</div>
+
+<div class="idea-card">
+
+<img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80">
+
+<div class="idea-title">
+Living Room
+</div>
+
+</div>
+
+<div class="idea-card">
+
+<img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80">
+
+<div class="idea-title">
+Kids Room
+</div>
+
+</div>
+
+<div class="idea-card">
+
+<img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80">
+
+<div class="idea-title">
+Exterior House
+</div>
+
+</div>
+
+<div class="idea-card">
+
+<img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80">
+
+<div class="idea-title">
+Office
+</div>
+
+</div>
+
+<div class="idea-card">
+
+<img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=900&q=80">
+
+<div class="idea-title">
+Shop
+</div>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section id="services" class="services">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Our Services</h2>
+
+<p>More than just a paint shop</p>
+
+</div>
+
+<div class="service-grid">
+
+<div class="service">
+<div class="service-icon">🚚</div>
+<h3>Home Delivery</h3>
+<p>Paint products delivered to your doorstep.</p>
+</div>
+
+<div class="service">
+<div class="service-icon">🎨</div>
+<h3>Colour Consultation</h3>
+<p>Get help choosing the right colour.</p>
+</div>
+
+<div class="service">
+<div class="service-icon">🧪</div>
+<h3>Paint Mixing</h3>
+<p>Choose your desired colour and shade.</p>
+</div>
+
+<div class="service">
+<div class="service-icon">👷</div>
+<h3>Contractor Support</h3>
+<p>Support for painters and contractors.</p>
+</div>
+
+<div class="service">
+<div class="service-icon">📦</div>
+<h3>Bulk Order</h3>
+<p>Special support for large requirements.</p>
+</div>
+
+<div class="service">
+<div class="service-icon">🖌️</div>
+<h3>Painting Service</h3>
+<p>Professional painting service available.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- ================= OFFER ================= -->
+
+<section class="offer">
+
+<div class="container">
+
+<h2>🔥 Puja Special Offer</h2>
+
+<p>
+Get <strong>10% OFF</strong> on selected paints
+</p>
+
+<p>
+🚚 Free Delivery on Bulk Orders
+</p>
+
+<a href="https://wa.me/919999999999?text=Hello%20Rong%20Bahar%2C%20I%20want%20to%20know%20about%20your%20Puja%20Special%20Offer." class="btn btn-whatsapp">
+Claim Offer on WhatsApp
+</a>
+
+</div>
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section>
+
+<div class="container">
+
+<div class="about-grid">
+
+<img class="about-img"
+src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=1000&q=80"
+alt="Rong Bahar Paint Shop">
+
+<div class="about-content">
+
+<h2>About Rong Bahar</h2>
+
+<p>
+Rong Bahar is your trusted destination for quality paints, beautiful colours and complete painting solutions.
+</p>
+
+<ul class="about-list">
+
+<li>✓ Genuine Products</li>
+
+<li>✓ Trusted Service</li>
+
+<li>✓ Experienced Staff</li>
+
+<li>✓ Competitive Pricing</li>
+
+<li>✓ Home Delivery</li>
+
+<li>✓ Colour Guidance</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Contact Rong Bahar</h2>
+
+<p>Visit our store or contact us today</p>
+
+</div>
+
+<div class="contact-grid">
+
+<div class="contact-card">
+
+<div class="contact-item">
+
+<strong>📍 Address</strong>
+
+Nayagram, Jhargram, West Bengal, India
+
+</div>
+
+<div class="contact-item">
+
+<strong>📞 Phone</strong>
+
+<a href="tel:+919999999999">
++91 99999 99999
+</a>
+
+</div>
+
+<div class="contact-item">
+
+<strong>🟢 WhatsApp</strong>
+
+<a href="https://wa.me/919999999999">
+Chat with us on WhatsApp
+</a>
+
+</div>
+
+<div class="contact-item">
+
+<strong>🕐 Opening Hours</strong>
+
+Monday - Sunday: 8:00 AM - 8:00 PM
+
+</div>
+
+<a href="https://wa.me/919999999999?text=Hello%20Rong%20Bahar%2C%20I%20want%20to%20visit%20your%20shop." class="btn btn-whatsapp">
+🟢 WhatsApp Us
+</a>
+
+</div>
+
+
+<div>
+
+<iframe
+class="map"
+src="https://www.google.com/maps?q=Nayagram,Jhargram,West+Bengal&output=embed"
+loading="lazy">
+</iframe>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<div class="footer-grid">
+
+<div>
+
+<div class="footer-logo">
+RONG BAHAR
+</div>
+
+<p style="color:#bbb;margin-top:10px;">
+Bring Colour to Your Dream Home.
+</p>
+
+</div>
+
+<div>
+
+<h3>Quick Links</h3>
+
+<ul class="footer-links">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#products">Products</a></li>
+<li><a href="#colours">Colours</a></li>
+<li><a href="#calculator">Calculator</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h3>Contact</h3>
+
+<ul class="footer-links">
+
+<li>Nayagram, Jhargram</li>
+<li>West Bengal, India</li>
+<li>+91 99999 99999</li>
+<li>WhatsApp Available</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+© 2026 Rong Bahar. All Rights Reserved.
+
+</div>
+
+</footer>
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script>
+
+/* MOBILE MENU */
+
+function toggleMenu(){
+
+document
+.getElementById("navLinks")
+.classList.toggle("active");
+
+}
+
+
+/* PAINT CALCULATOR */
+
+function calculatePaint(){
+
+let length =
+parseFloat(document.getElementById("length").value);
+
+let width =
+parseFloat(document.getElementById("width").value);
+
+let height =
+parseFloat(document.getElementById("height").value);
+
+let doors =
+parseInt(document.getElementById("doors").value) || 0;
+
+let windows =
+parseInt(document.getElementById("windows").value) || 0;
+
+let coats =
+parseInt(document.getElementById("coats").value);
+
+
+if(!length || !width || !height){
+
+document.getElementById("result").innerHTML =
+"⚠️ Please enter Length, Width and Height.";
+
+return;
+
+}
+
+
+/* Wall Area */
+
+let wallArea =
+2 * (length + width) * height;
+
+
+/* Approx door/window deduction */
+
+let doorArea =
+doors * 21;
+
+let windowArea =
+windows * 15;
+
+
+/* Final paintable area */
+
+let paintableArea =
+wallArea - doorArea - windowArea;
+
+
+/* Total area for selected coats */
+
+let totalArea =
+paintableArea * coats;
+
+
+/* Approx coverage */
+
+let coverage = 100;
+
+
+/* Paint litres */
+
+let litres =
+totalArea / coverage;
+
+
+/* Add 10% wastage */
+
+litres =
+litres * 1.10;
+
+
+document.getElementById("result").innerHTML =
+
+"🏠 Paintable Area: <strong>" +
+paintableArea.toFixed(1) +
+" sq.ft</strong><br><br>" +
+
+"🎨 Approx Paint Required: <strong>" +
+litres.toFixed(1) +
+" Litres</strong><br><br>" +
+
+"ℹ️ This is an approximate calculation. Actual requirement may vary depending on surface condition, paint type and coverage.";
+
+}
+
+</script>
+
+</body>
+</html>
