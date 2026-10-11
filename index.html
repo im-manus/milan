@@ -1617,5 +1617,165 @@ litres.toFixed(1) +
 
 </script>
 
+<!-- PUJA SPECIAL POPUP -->
+<div id="pujaPopup" class="puja-overlay">
+  <div class="puja-box">
+
+    <button class="puja-close"
+            onclick="closePujaPopup()"
+            aria-label="Close popup">&times;</button>
+
+    <p class="puja-brand">RONG BAHAR</p>
+
+    <div class="puja-icon">🪔 🌼 🪔</div>
+
+    <h2>শুভ পুজো!</h2>
+    <h3>PUJA SPECIAL OFFER</h3>
+
+    <p>
+      এই পুজোয় বাড়ির রঙের কেনাকাটায়
+      পেয়ে যান বিশেষ ছাড়!
+    </p>
+
+    <div class="puja-discount">
+      <span>FESTIVE</span>
+      <strong>SPECIAL DISCOUNT</strong>
+      <small>অফারের বিস্তারিত জানতে যোগাযোগ করুন</small>
+    </div>
+
+    <a class="puja-whatsapp"
+       href="https://wa.me/918378943231?text=Hello%20Rong%20Bahar%2C%20I%20want%20to%20know%20about%20the%20Puja%20discount."
+       target="_blank"
+       rel="noopener noreferrer">
+       WhatsApp-এ অফার জানুন
+    </a>
+
+    <p class="puja-note">
+      শর্তাবলি প্রযোজ্য।
+    </p>
+  </div>
+</div>
+
+<style>
+.puja-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  z-index: 99999;
+}
+
+.puja-box {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  background: #fff8e9;
+  color: #40251b;
+  padding: 28px 22px 20px;
+  border: 3px solid #e7b95d;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 12px 40px rgba(0,0,0,.3);
+  animation: pujaAppear .4s ease-out;
+}
+
+.puja-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  border: 0;
+  background: transparent;
+  color: #333;
+  font-size: 32px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.puja-brand {
+  color: #a52d20;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.puja-icon {
+  font-size: 32px;
+  margin: 12px 0;
+}
+
+.puja-box h2 {
+  color: #a52d20;
+  font-size: 30px;
+  margin: 8px 0;
+}
+
+.puja-box h3 {
+  color: #8c5310;
+  font-size: 21px;
+  margin: 10px 0;
+}
+
+.puja-discount {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #f3dfb7;
+  padding: 18px 10px;
+  border-radius: 12px;
+  margin: 18px 0;
+}
+
+.puja-discount strong {
+  color: #a52d20;
+  font-size: 23px;
+}
+
+.puja-discount small {
+  font-size: 12px;
+}
+
+.puja-whatsapp {
+  display: block;
+  background: #25d366;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 13px 10px;
+  border-radius: 30px;
+}
+
+.puja-note {
+  color: #705d4b;
+  font-size: 11px;
+  margin-bottom: 0;
+}
+
+@keyframes pujaAppear {
+  from {
+    opacity: 0;
+    transform: scale(.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 480px) {
+  .puja-box {
+    padding: 25px 17px 18px;
+  }
+}
+</style>
+
+<script>
+function closePujaPopup() {
+  document.getElementById("pujaPopup").style.display = "none";
+}
+</script>
+
 </body>
 </html>
